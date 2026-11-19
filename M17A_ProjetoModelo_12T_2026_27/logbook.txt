@@ -1,0 +1,19 @@
+﻿Projeto M17A
+Biblioteca
+Requisitos funcionais:
+- Empréstimo/devolução dos livros
+- CRUD: Livros e Leitores
+- CRU: Emprétimos
+Consultas:
+	- Pesquisar livros título
+	- Filtros para escolher diferentes campos de pesquisa
+	- Lista de Novidades
+	- Top Livros do mês
+	- Top leitores
+	- Empréstimos fora de prazo
+
+	Necessidades de dados
+	Base de dados:
+	Livros(id<PK>,ISBN,Titulo,Autor,Tipo,DataEntrada,Estado,Disponivel)
+	Leitores(id<PK>,Nome,Email,DataNascimento,Estado)
+	Emprestimos(id<PK>,id_livro<FK>,id_leitor<FK>,data_emp,data_dev,Estado,Obs)
