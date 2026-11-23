@@ -16,7 +16,7 @@ namespace M17A_ProjetoModelo_12T_2026_27
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new f_main());
         }
     }
 }

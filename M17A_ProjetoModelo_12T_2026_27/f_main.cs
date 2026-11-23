@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace M17A_ProjetoModelo_12T_2026_27
 {
-    public partial class Form1 : Form
+    public partial class f_main : Form
     {
-        public Form1()
+        public f_main()
         {
             InitializeComponent();
         }

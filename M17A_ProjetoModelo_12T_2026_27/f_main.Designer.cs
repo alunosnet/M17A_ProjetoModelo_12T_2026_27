@@ -1,6 +1,6 @@
 ﻿namespace M17A_ProjetoModelo_12T_2026_27
 {
-    partial class Form1
+    partial class f_main
     {
         /// <summary>
         /// Required designer variable.
