@@ -17,3 +17,7 @@ Consultas:
 	Livros(id<PK>,ISBN,Titulo,Autor,Tipo,DataEntrada,Estado,Disponivel)
 	Leitores(id<PK>,Nome,Email,DataNascimento,Estado)
 	Emprestimos(id<PK>,id_livro<FK>,id_leitor<FK>,data_emp,data_dev,Estado,Obs)
+
+	23-11-2026
+	-----------
+	Criar uma classe para acesso à base de dados
