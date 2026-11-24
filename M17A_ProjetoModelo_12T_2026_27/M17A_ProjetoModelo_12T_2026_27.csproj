@@ -65,6 +65,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils.cs" />
+    <EmbeddedResource Include="f_main.resx">
+      <DependentUpon>f_main.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Leitores\f_leitor.resx">
       <DependentUpon>f_leitor.cs</DependentUpon>
     </EmbeddedResource>

@@ -12,9 +12,11 @@ namespace M17A_ProjetoModelo_12T_2026_27.Leitores
 {
     public partial class f_leitor : Form
     {
-        public f_leitor()
+        BaseDados bd;
+        public f_leitor(BaseDados bd)
         {
             InitializeComponent();
+            this.bd = bd;
         }
         /// <summary>
         /// Clique no botão para guardar o leitor na base de dados
@@ -24,7 +26,8 @@ namespace M17A_ProjetoModelo_12T_2026_27.Leitores
         private void btn_adicionar_Click(object sender, EventArgs e)
         {
             c_leitor novo = new c_leitor();
-            novo.set_nome( tb_nome.Text);
+            
+           // novo.set_nome( tb_nome.Text);
             //recolher os dados do form
             //validar os dados do form
             //Estabelecer a ligação à base dados
